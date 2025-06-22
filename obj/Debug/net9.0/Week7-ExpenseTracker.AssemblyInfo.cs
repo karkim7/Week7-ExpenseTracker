@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Week7-ExpenseTracker")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+733c1f7d4c851aeeda52e465d518b984cfed480b")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+b93c222b828a69c536288c9016af6643753839e3")]
 [assembly: System.Reflection.AssemblyProductAttribute("Week7-ExpenseTracker")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Week7-ExpenseTracker")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
