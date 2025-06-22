@@ -36,7 +36,7 @@ class ExpenseTracker
             switch (input)
             {
                 case "1":
-                    Console.Write("Enter description: ");
+                    Console.Write("Enter description like Groceries, Utilities, Communication, Online shopping, etc. : ");
                     string desc = Console.ReadLine();
 
                     Console.Write("Enter amount: $");
@@ -71,14 +71,14 @@ class ExpenseTracker
                     {
                         total += e.Amount;
                     }
-                    Console.WriteLine($"Total Spent: ${total:F2}");
+                    Console.WriteLine($" Your Total Spent: ${total:F2}");
                     break;
 
                 case "4":
                     running = false;
                     Console.WriteLine("Exiting... Thank you!");
                     break;
-
+// default case 
                 default:
                     Console.WriteLine("Invalid option. Please try again.");
                     break;
